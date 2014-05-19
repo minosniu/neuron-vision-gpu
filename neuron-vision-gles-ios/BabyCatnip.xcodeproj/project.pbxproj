@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361B9426192990320044451A /* GPUImageIzhFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 361B9425192990320044451A /* GPUImageIzhFilter.m */; };
+		BCB5DDCF14E86899000AF3C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDCE14E86899000AF3C2 /* UIKit.framework */; };
+		BCB5DDD114E86899000AF3C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDD014E86899000AF3C2 /* Foundation.framework */; };
+		BCB5DDD314E86899000AF3C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */; };
+		BCB5DDD914E86899000AF3C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB5DDD714E86899000AF3C2 /* InfoPlist.strings */; };
+		BCB5DDDB14E86899000AF3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDDA14E86899000AF3C2 /* main.m */; };
+		BCB5DDDF14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDDE14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.m */; };
+		BCB5DDE814E868C0000AF3C2 /* SimpleVideoFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5DDE614E868C0000AF3C2 /* SimpleVideoFilterViewController.m */; };
+		BCB5DDE914E868C0000AF3C2 /* SimpleVideoFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB5DDE714E868C0000AF3C2 /* SimpleVideoFilterViewController.xib */; };
+		BCB5DDF914E876DD000AF3C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */; };
+		BCB5DDFC14E876ED000AF3C2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */; };
+		BCB5DDFD14E876ED000AF3C2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BCB5DDFF14E87783000AF3C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */; };
+		BCB5DE0114E87789000AF3C2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */; };
+		BCB5DE0214E8779B000AF3C2 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5DDF314E8756B000AF3C2 /* libGPUImage.a */; };
+		DE8CCE5A169AAE0600264601 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8CCE59169AAE0600264601 /* Default-568h@2x.png */; };
+		DEAE3D77167C113900DBAD6B /* baby1dither.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAE3D76167C113900DBAD6B /* baby1dither.png */; };
+		DEAE3D7E168EB05C00DBAD6B /* baby1ditherRetina72.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAE3D7D168EB05C00DBAD6B /* baby1ditherRetina72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCB5DDF214E8756B000AF3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		BCB5DDF414E8756B000AF3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+		BCB5DDF614E87573000AF3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361B9424192990320044451A /* GPUImageIzhFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageIzhFilter.h; sourceTree = "<group>"; };
+		361B9425192990320044451A /* GPUImageIzhFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageIzhFilter.m; sourceTree = "<group>"; };
+		BCB5DDCA14E86899000AF3C2 /* BabyCatnip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCatnip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5DDCE14E86899000AF3C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCB5DDD014E86899000AF3C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCB5DDD614E86899000AF3C2 /* BabyCatnip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabyCatnip-Info.plist"; sourceTree = "<group>"; };
+		BCB5DDD814E86899000AF3C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCB5DDDA14E86899000AF3C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB5DDDC14E86899000AF3C2 /* BabyCatnip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BabyCatnip-Prefix.pch"; sourceTree = "<group>"; };
+		BCB5DDDD14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleVideoFilterAppDelegate.h; sourceTree = "<group>"; };
+		BCB5DDDE14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFilterAppDelegate.m; sourceTree = "<group>"; };
+		BCB5DDE514E868C0000AF3C2 /* SimpleVideoFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleVideoFilterViewController.h; sourceTree = "<group>"; };
+		BCB5DDE614E868C0000AF3C2 /* SimpleVideoFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFilterViewController.m; sourceTree = "<group>"; };
+		BCB5DDE714E868C0000AF3C2 /* SimpleVideoFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleVideoFilterViewController.xib; sourceTree = "<group>"; };
+		BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DE8CCE59169AAE0600264601 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEAE3D76167C113900DBAD6B /* baby1dither.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby1dither.png; sourceTree = "<group>"; };
+		DEAE3D78167C128A00DBAD6B /* baby1ditherRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby1ditherRetina.png; sourceTree = "<group>"; };
+		DEAE3D7D168EB05C00DBAD6B /* baby1ditherRetina72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baby1ditherRetina72.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB5DDC714E86899000AF3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5DE0214E8779B000AF3C2 /* libGPUImage.a in Frameworks */,
+				BCB5DE0114E87789000AF3C2 /* OpenGLES.framework in Frameworks */,
+				BCB5DDFF14E87783000AF3C2 /* QuartzCore.framework in Frameworks */,
+				BCB5DDFC14E876ED000AF3C2 /* CoreMedia.framework in Frameworks */,
+				BCB5DDFD14E876ED000AF3C2 /* CoreVideo.framework in Frameworks */,
+				BCB5DDF914E876DD000AF3C2 /* AVFoundation.framework in Frameworks */,
+				BCB5DDCF14E86899000AF3C2 /* UIKit.framework in Frameworks */,
+				BCB5DDD114E86899000AF3C2 /* Foundation.framework in Frameworks */,
+				BCB5DDD314E86899000AF3C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB5DDBF14E86899000AF3C2 = {
+			isa = PBXGroup;
+			children = (
+				DE8CCE59169AAE0600264601 /* Default-568h@2x.png */,
+				DEAE3D76167C113900DBAD6B /* baby1dither.png */,
+				DEAE3D78167C128A00DBAD6B /* baby1ditherRetina.png */,
+				DEAE3D7D168EB05C00DBAD6B /* baby1ditherRetina72.png */,
+				BCB5DDD414E86899000AF3C2 /* SimpleVideoFilter */,
+				BCB5DDCD14E86899000AF3C2 /* Frameworks */,
+				BCB5DDCB14E86899000AF3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB5DDCB14E86899000AF3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5DDCA14E86899000AF3C2 /* BabyCatnip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB5DDCD14E86899000AF3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */,
+				BCB5DE0014E87789000AF3C2 /* OpenGLES.framework */,
+				BCB5DDFE14E87783000AF3C2 /* QuartzCore.framework */,
+				BCB5DDFA14E876ED000AF3C2 /* CoreMedia.framework */,
+				BCB5DDFB14E876ED000AF3C2 /* CoreVideo.framework */,
+				BCB5DDF814E876DD000AF3C2 /* AVFoundation.framework */,
+				BCB5DDCE14E86899000AF3C2 /* UIKit.framework */,
+				BCB5DDD014E86899000AF3C2 /* Foundation.framework */,
+				BCB5DDD214E86899000AF3C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB5DDD414E86899000AF3C2 /* SimpleVideoFilter */ = {
+			isa = PBXGroup;
+			children = (
+				361B9424192990320044451A /* GPUImageIzhFilter.h */,
+				361B9425192990320044451A /* GPUImageIzhFilter.m */,
+				BCB5DDDD14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.h */,
+				BCB5DDDE14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.m */,
+				BCB5DDE514E868C0000AF3C2 /* SimpleVideoFilterViewController.h */,
+				BCB5DDE614E868C0000AF3C2 /* SimpleVideoFilterViewController.m */,
+				BCB5DDE714E868C0000AF3C2 /* SimpleVideoFilterViewController.xib */,
+				BCB5DDD514E86899000AF3C2 /* Supporting Files */,
+			);
+			path = SimpleVideoFilter;
+			sourceTree = "<group>";
+		};
+		BCB5DDD514E86899000AF3C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5DDD614E86899000AF3C2 /* BabyCatnip-Info.plist */,
+				BCB5DDD714E86899000AF3C2 /* InfoPlist.strings */,
+				BCB5DDDA14E86899000AF3C2 /* main.m */,
+				BCB5DDDC14E86899000AF3C2 /* BabyCatnip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB5DDEB14E8756A000AF3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5DDF314E8756B000AF3C2 /* libGPUImage.a */,
+				BCB5DDF514E8756B000AF3C2 /* GPUImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB5DDC914E86899000AF3C2 /* BabyCatnip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB5DDE214E86899000AF3C2 /* Build configuration list for PBXNativeTarget "BabyCatnip" */;
+			buildPhases = (
+				BCB5DDC614E86899000AF3C2 /* Sources */,
+				BCB5DDC714E86899000AF3C2 /* Frameworks */,
+				BCB5DDC814E86899000AF3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB5DDF714E87573000AF3C2 /* PBXTargetDependency */,
+			);
+			name = BabyCatnip;
+			productName = SimpleVideoFilter;
+			productReference = BCB5DDCA14E86899000AF3C2 /* BabyCatnip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB5DDC114E86899000AF3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cell Phone";
+				TargetAttributes = {
+					BCB5DDC914E86899000AF3C2 = {
+						DevelopmentTeam = DAQGTW7Z2F;
+					};
+				};
+			};
+			buildConfigurationList = BCB5DDC414E86899000AF3C2 /* Build configuration list for PBXProject "BabyCatnip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCB5DDBF14E86899000AF3C2;
+			productRefGroup = BCB5DDCB14E86899000AF3C2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BCB5DDEB14E8756A000AF3C2 /* Products */;
+					ProjectRef = BCB5DDEA14E8756A000AF3C2 /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BCB5DDC914E86899000AF3C2 /* BabyCatnip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BCB5DDF314E8756B000AF3C2 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = BCB5DDF214E8756B000AF3C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BCB5DDF514E8756B000AF3C2 /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = BCB5DDF414E8756B000AF3C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB5DDC814E86899000AF3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5DDD914E86899000AF3C2 /* InfoPlist.strings in Resources */,
+				BCB5DDE914E868C0000AF3C2 /* SimpleVideoFilterViewController.xib in Resources */,
+				DEAE3D77167C113900DBAD6B /* baby1dither.png in Resources */,
+				DEAE3D7E168EB05C00DBAD6B /* baby1ditherRetina72.png in Resources */,
+				DE8CCE5A169AAE0600264601 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB5DDC614E86899000AF3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5DDDB14E86899000AF3C2 /* main.m in Sources */,
+				BCB5DDDF14E86899000AF3C2 /* SimpleVideoFilterAppDelegate.m in Sources */,
+				361B9426192990320044451A /* GPUImageIzhFilter.m in Sources */,
+				BCB5DDE814E868C0000AF3C2 /* SimpleVideoFilterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCB5DDF714E87573000AF3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = BCB5DDF614E87573000AF3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCB5DDD714E86899000AF3C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB5DDD814E86899000AF3C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB5DDE014E86899000AF3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../framework/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB5DDE114E86899000AF3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../framework/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB5DDE314E86899000AF3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVideoFilter/BabyCatnip-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVideoFilter/BabyCatnip-Info.plist";
+				PRODUCT_NAME = BabyCatnip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCB5DDE414E86899000AF3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleVideoFilter/BabyCatnip-Prefix.pch";
+				INFOPLIST_FILE = "SimpleVideoFilter/BabyCatnip-Info.plist";
+				PRODUCT_NAME = BabyCatnip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB5DDC414E86899000AF3C2 /* Build configuration list for PBXProject "BabyCatnip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5DDE014E86899000AF3C2 /* Debug */,
+				BCB5DDE114E86899000AF3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB5DDE214E86899000AF3C2 /* Build configuration list for PBXNativeTarget "BabyCatnip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5DDE314E86899000AF3C2 /* Debug */,
+				BCB5DDE414E86899000AF3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB5DDC114E86899000AF3C2 /* Project object */;
+}
